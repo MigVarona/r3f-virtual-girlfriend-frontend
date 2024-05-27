@@ -1,0 +1,11 @@
+img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 200px !important;
+    }
+}
+
+

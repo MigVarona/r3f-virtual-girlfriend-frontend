@@ -1,6 +1,6 @@
+import "./styles.css"; 
 import { useRef } from "react";
 import { useChat } from "../hooks/useChat";
-
 
 
 export const UI = ({ hidden, ...props }) => {
@@ -20,13 +20,15 @@ export const UI = ({ hidden, ...props }) => {
 
   return (
     <>
+
       <div className="fixed top-0 left-0 right-0 bottom-0 z-10 flex justify-between p-4 flex-col pointer-events-none">
         <div className="self-start backdrop-blur-md bg-white bg-opacity-50 p-4 rounded-lg">
-          <img width={350}  src="submarca_agenciaempleo_vertical_madrid_negro.png" ></img>
-        
+          <img
+            src="submarca_agenciaempleo_vertical_madrid_negro.png"
+            alt="Imagen de la agencia de empleo"
+          />
         </div>
         <div className="w-full flex flex-col items-end justify-center gap-4">
-          
           
         </div>
         <div className="flex items-center gap-2 pointer-events-auto max-w-screen-sm w-full mx-auto">
