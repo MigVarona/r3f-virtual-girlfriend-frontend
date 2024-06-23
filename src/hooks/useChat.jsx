@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 //const backendUrl = "http://localhost:3000";
 
-const backendUrl = "https://backvirtual13.onrender.com";
+const backendUrl = "https://noble-healing-production.up.railway.app";
 
 const ChatContext = createContext();
 
