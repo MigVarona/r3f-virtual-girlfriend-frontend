@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-const backendUrl = "http://localhost:3000";
+//const backendUrl = "http://localhost:3000";
 
-//const backendUrl = "https://backvirtual13.onrender.com";
+const backendUrl = "https://avatar-backend.adaptable.app";
 
 const ChatContext = createContext();
 
